@@ -21,7 +21,7 @@ public class HomePage {
         return new LoginPage(driver);
     }
     public DropDownPage clickOnDropDown(){
-        clickLink("DropDown");
+        driver.findElement(By.xpath("//a[text()='Dropdown']")).click();
         return new DropDownPage(driver);
     }
     public HoversPage clickOnHovers(){

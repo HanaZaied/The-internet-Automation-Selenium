@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="The-Internet Suite">
+    <test name="Authentication">
+        <classes>
+            <class name="Login.LoginTests"/>
+        </classes>
+    </test>
+    <test name="DropDown">
+        <classes>
+            <class name="DropDown.DropDownTests"/>
+        </classes>
+    </test>
+    <test name="Hovers">
+        <classes>
+            <class name="Hovers.HoverTests"/>
+        </classes>
+    </test>
+    <test name="Frames">
+        <classes>
+            <class name="Frames.FramesTests"/>
+        </classes>
+    </test>
+    <test name="FileUpload">
+        <classes>
+            <class name="FileUpload.FileUploadTests"/>
+        </classes>
+    </test>
+    <test name="JS">
+        <classes>
+            <class name="JS.AlertsTests"/>
+            <class name="JS.JsExecuterTests"/>
+        </classes>
+    </test>
+    <test name="Keys">
+        <classes>
+            <class name="Keys.KeysTest"/>
+        </classes>
+    </test>
+    <test name="Modal">
+        <classes>
+            <class name="Modal.ModalTests"/>
+        </classes>
+    </test>
+    <test name="Navigate">
+        <classes>
+            <class name="Navigate.NavigationTests"/>
+            <class name="Navigate.WindowTests"/>
+        </classes>
+    </test>
+    <test name="Waits">
+        <classes>
+            <class name="Waits.WaitsTests"/>
+        </classes>
+    </test>
+</suite>
